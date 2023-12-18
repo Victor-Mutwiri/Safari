@@ -1,8 +1,11 @@
 {
     "version": 2,
     "builds": [
-        { "src": "C:/Users/dell/Desktop/Safari Adventures/Safari Adventures/src/**", "use": "@vercel/static", "config": { "output": "C:/Users/dell/Desktop/Safari Adventures/Safari Adventures/public" } },
-        { "src": "C:/Users/dell/Desktop/Safari Adventures/Safari Adventures/package.json", "use": "@vercel/node" }
+        { 
+            "src": "C:/Users/dell/Desktop/Safari Adventures/Safari Adventures/src/**", 
+            "use": "@vercel/static", 
+            "config": { "output": "C:/Users/dell/Desktop/Safari Adventures/Safari Adventures/public" } 
+        }
     ]
   }
   
