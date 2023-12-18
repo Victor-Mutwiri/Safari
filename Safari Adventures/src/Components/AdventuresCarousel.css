@@ -1,0 +1,102 @@
+.Featured-Adventures {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .adventures-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8; /* Added background color */
+  }
+  
+  .adventures {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .adventures img {
+    background-position: center;
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .adventures h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333; /* Adjusted font color */
+  }
+  
+  .adventures span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555; /* Adjusted font color */
+  }
+  
+  .adventures ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .adventures li {
+    margin-bottom: 5px;
+    color: #777; /* Adjusted font color */
+  }
+  
+  .adventures div {
+    margin-top: 10px;
+  }
+  
+  .adventures div h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333; /* Adjusted font color */
+  }
+  
+  .adventures div p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px;
+    color: #ff6347; /* Changed font color to a reddish tone */
+  }
+  
+  @media (max-width: 768px) {
+    .adventures-card {
+      width: 100%; /* Make cards full width on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .adventures img {
+      height: 150px; /* Adjust image height on even smaller screens */
+    }
+  
+    .adventures h3 {
+      font-size: 18px; /* Adjust heading font size on smaller screens */
+    }
+  
+    .adventures span {
+      font-size: 12px; /* Adjust span font size on smaller screens */
+    }
+  
+    .adventures li {
+      font-size: 12px; /* Adjust list item font size on smaller screens */
+    }
+  
+    .adventures div h3 {
+      font-size: 14px; /* Adjust div heading font size on smaller screens */
+    }
+  
+    .adventures div p {
+      font-size: 16px; /* Adjust paragraph font size on smaller screens */
+    }
+  }

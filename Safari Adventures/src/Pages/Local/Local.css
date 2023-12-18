@@ -1,0 +1,117 @@
+.heading {
+    margin-top: 5rem;
+}
+.local {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    grid-template-rows: repeat(4, 1fr); /* Four rows */
+    gap: 10px; /* Adjust the gap between cards */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5rem;
+  }
+  
+  .local-destinations {
+    position: relative;
+    height: 300px; /* Set a fixed height for the card */
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .local-destinations:hover{
+    box-shadow: 0 12px 24px rgba(255, 165, 0, 0.9);
+    transform: scale(1.08);
+  }
+  
+  .local-destinations::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  
+  /* Specify background images for each card */
+  .local-destinations:nth-child(1)::before {
+    background-image: url("../src/assets/Leken Adventure.jpg");
+    grid-column: span 2; /* Occupies the first two columns */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(2)::before {
+    background-image: url("../src/assets/Beach Vibes.jpg");
+    grid-column: span 1; /* Occupies one column */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(3)::before {
+    background-image: url("../src/assets/Hiking.jpg");
+    grid-column: span 1; /* Occupies one column */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(4)::before {
+    background-image: url("../src/assets/Kenyan Coast 1.jpg");
+    grid-column: span 3; /* Occupies all three columns */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(5)::before {
+    background-image: url("../src/assets/Safari 2.jpg");
+    grid-column: span 1; /* Occupies one column */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(6)::before {
+    background-image: url("../src/assets/Giraffe Manor 1.jpg");
+    grid-column: span 2; /* Occupies the last two columns */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(7)::before {
+    background-image: url("../src/assets/Springs.jpg");
+    grid-column: span 1; /* Occupies one column */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(8)::before {
+    background-image: url("../src/assets/Serengeti.jpg");
+    grid-column: span 1; /* Occupies one column */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(9)::before {
+    background-image: url("../src/assets/Elephant Center.jpg");
+    grid-column: span 2; /* Occupies the last two columns */
+    grid-row: span 1;
+  }
+  
+  .local-destinations:nth-child(10)::before {
+    background-image: url("../src/assets/Safari Ostrich Farm.jpg");
+    grid-column: span 1; /* Occupies one column */
+    grid-row: span 1;
+  }
+  
+  .text-overlay {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+  }
+  
+  .text-overlay span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  

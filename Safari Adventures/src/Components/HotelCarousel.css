@@ -1,0 +1,17 @@
+.logo{
+    width: 100%;
+  }
+  .logo img{
+    background-size: contain;
+    /* left: -50%; */
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  

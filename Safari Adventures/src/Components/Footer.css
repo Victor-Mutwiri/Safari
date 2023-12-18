@@ -1,0 +1,43 @@
+
+footer{
+    background-color: #2d2d32;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer span {
+    max-width: 250px;
+}
+
+.Quick a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: orange; /* Change color on hover, you can choose your desired color */
+}
+h2, h3, p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+      flex-direction: column; /* Stack sections in a column on smaller screens */
+      align-items: center; /* Center align items */
+    }
+  }

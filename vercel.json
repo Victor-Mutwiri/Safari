@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "Safari Adventures/src/**", "use": "@vercel/static", "config": { "output": "/public" } },
+        { "src": "Safari Adventures/package.json", "use": "@vercel/node" }
+    ]
+  }
+  
