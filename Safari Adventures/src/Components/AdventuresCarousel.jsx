@@ -31,7 +31,7 @@ const responsiveSettings = [
   {
     breakpoint: 1024, // You can add more breakpoints if necessary
     settings: {
-      slidesToShow: 3,
+      slidesToShow: 1,
     },
   },
 ];
