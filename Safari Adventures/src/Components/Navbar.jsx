@@ -1,7 +1,7 @@
 /* import mainLogo from './assets/logo-color.svg' */
 /* import {Link} from 'react-router-dom' */
 import './Navbar.css'
-import 'C:/Users/dell/Desktop/Safari/Safari Adventures/src/index.css'
+import 'C:/Users/dell/Desktop/Safari Adventures/Safari Adventures/src/index.css'
 function Navbar () {
   return (
     <>
