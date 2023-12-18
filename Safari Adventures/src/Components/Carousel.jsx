@@ -1,7 +1,7 @@
 
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "C:/Users/dell/Desktop/Safari Adventures/node_modules/slick-carousel/slick/slick.css";
+import "C:/Users/dell/Desktop/Safari Adventures/node_modules/slick-carousel/slick/slick-theme.css";
 import './Carousel.css'
 
 /* const basePath = import.meta.env.BASE_URL || ''; */
